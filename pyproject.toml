@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "dj-drf-jwt"
+version = "0.1.0"
+description = ""
+authors = ["Andrew Ernest <anernest@ratesresearch.org>"]
+readme = "README.md"
+packages = [{include = "dj_drf_jwt"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+django = ">=2.0.0"
+djangorestframework = ">=3.12.4"
+drf-jwt = "^1.19.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
